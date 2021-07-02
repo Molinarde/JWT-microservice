@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      database: travel
+
+jwt:
+  expirationAccessTokenMs: 60000
+  jwtRefreshExpirationMs: 120000
+  secret: very_very_secret_key@@very_very_secret_key+very_very_secret_key@@very_very_secret_key+very_very_secret_key@@very_very_secret_keyvery_very_secret_key@@very_very_secret_key+very_very_secret_key@@very_very_secret_key+very_very_secret_key@@very_very_secret_key
+
+server:
+  port: 8081
